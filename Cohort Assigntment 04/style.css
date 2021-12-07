@@ -1,0 +1,78 @@
+.main {
+    border : 10px solid black;
+    width : 302px ;
+    margin : 0 auto;
+    height: 335px;
+}
+
+
+.result {
+    width : 292px;
+    background-color: grey;
+    color: white;
+    height: 80px;
+    font-size: large;
+}
+
+.clearbtn {
+
+    background-color: white;
+    width: 300px;
+    color: black;
+    font-weight: bold ;
+    height: 40px;
+    font-size: larger;
+    margin-top: 1px;
+}
+
+.orange {
+
+    background-color: orangered;
+    width: 72px;
+    color: white;
+    font-weight: bold ;
+    height: 50px;
+    font-size: larger;
+    margin-top: 1px;
+    
+}
+
+.green {
+    background-color: green;
+    width: 72px;
+    color: white;
+    font-weight: bold ;
+    height: 50px;
+    font-size: larger;
+    margin-top: 1px;
+}
+
+.blue {
+    background-color: blue;
+    width: 72px;
+    color: white;
+    font-weight: bold ;
+    height: 50px;
+    font-size: larger;
+    margin-top: 1px;
+}
+
+.red {
+    background-color: red;
+    width: 72px;
+    color: white;
+    font-weight: bold ;
+    height: 50px;
+    font-size: larger;
+    margin-top: 1px;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 72px;
+    color: white;
+    font-weight: bold ;
+    height: 50px;
+    font-size: larger;
+    margin-top: 1px;
+}

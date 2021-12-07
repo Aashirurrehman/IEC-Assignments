@@ -1,0 +1,250 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.image {
+    background-image: url('images/cohort\ assignment\ background.jpg');
+    margin: 20px auto;
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 1% 9%;
+}
+
+
+nav img{
+    width: 150px;
+    cursor: pointer;
+    padding-left: 20%
+
+}
+
+.nav-link {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-link ul li{
+
+    list-style: none;
+    padding: 10px 30px;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-link ul li a {
+
+    font-size: 20px;
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.nav-link ul li::after {
+    width: 0%;
+    height: 2px;
+    content: "";
+    margin: auto;
+    display: block;
+    background: orangered;
+    transition: 0.5s;
+
+}
+
+.nav-link ul li:hover::after {
+    width: 100%;
+}
+
+.text-box{
+    width: 80%;
+    color: white;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.text-box h1{
+    font-size: 70px;
+    font-weight: normal;
+}
+.text-box p{
+    font-size: 12px;
+    margin: 40px;
+    color: white;
+    text-align: right;
+    font-weight: normal;
+    
+}
+
+
+.hero-btn{
+    background: white;
+    text-decoration: none;
+    color: brown;
+    padding: 15px 50px;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 2px solid white;
+    
+}
+
+.hero-btn:hover{
+    border: 1px solid rgb(183, 255, 112);
+    background: rgb(183, 255, 112);
+    transition: 1s;
+}
+
+nav .fa {
+    display: none;
+}
+    
+
+@media(max-width: 700px) {
+    .text-box h1{
+        font-size: 30px;
+        margin-top: 70px;
+        
+    }
+    .text-box p{
+        font-size: 12px;
+        text-align: justify;
+        
+    }
+    .nav-link ul li{
+        display: block;
+    }
+
+    .nav-link{
+        position: absolute;
+        height: 100vh;
+        width: 200px;
+        background: white;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa {
+        display: block;
+        color: brown;
+        font-size: 17px;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .nav-link ul{
+        padding: 30px;
+    }
+
+    .hero-btn{
+
+        margin-bottom: 60px;
+        font-size: 15px;
+        border-radius: 30px;
+        border: 1px solid white;
+        padding: 5px 10px;
+        
+    }
+
+
+}
+
+/* Services */
+
+.services{
+    width: 80%;
+    text-align: center;
+    padding-top: 80px;
+    margin: auto;
+}
+
+.services h1{
+    font-size: 36px;
+    font-weight: bol;
+    color: brown;
+    
+}
+
+p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    color: black
+    
+}
+
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.services-col{
+    flex-basis: 29%;
+    padding: 20px 12px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: justify;
+    cursor: pointer;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600px;
+    margin: 10px 0;
+}
+
+.services-col:hover{
+    box-shadow: 12px 0 12px 0 rgba(172, 95, 72, 0.9);
+    
+}
+
+
+@media(max-width: 700px) {
+    .row{
+        flex-direction: column;
+    }
+    .services-col{
+        margin-top: 20px;
+        text-align: justify;
+        cursor: pointer;
+    }
+
+    .services-col img{
+        
+        padding-left: 60px;
+        
+    }
+    .services p{
+        margin-top: 10px;
+    }
+    .services h1{
+        font-size: 30px;
+    }
+}
+
+

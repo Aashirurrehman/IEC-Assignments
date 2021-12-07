@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+        
+    </script>
+</head>
+<body>
+
+<div class="main">
+    <div>
+        <input id="result"  class="result"  type = "text" onfocus="this.style.backgroundColor = ' red' " >
+    </div>
+    <div>
+        <button class="clearbtn" onclick = "getResult()"> C </button>
+    </div>
+
+<!-- ********************************************************************** -->
+    <div>
+        <button class="orange" onclick="getNumber('7')" onfocus="this.style.backgroundColor = ' red' "  > 7 </button >
+        <button class="green"  onclick="getNumber('8')" onfocus="this.style.backgroundColor = ' blue' " > 8 </button>
+        <button class="blue"  onclick="getNumber('9')" onfocus="this.style.backgroundColor = ' orangered' " > 9 </button>
+        <button class="red"  onclick="getNumber('/')" onfocus="this.style.backgroundColor = ' yellow' " > / </button>
+    </div>
+
+<!-- ********************************************************************** -->
+
+    <div>
+        <button class="orange"  onclick="getNumber('4')" onfocus="this.style.backgroundColor = ' blue' " > 4 </button>
+        <button class="green"  onclick="getNumber('5')" onfocus="this.style.backgroundColor = ' red' " > 5 </button>
+        <button class="blue"  onclick="getNumber('6')" onfocus="this.style.backgroundColor = ' green' "> 6 </button>
+        <button class="red"  onclick="getNumber('*')" onfocus="this.style.backgroundColor = ' orangered' "> X </button>
+    </div>
+
+<!-- ********************************************************************** -->
+
+    <div>
+        <button class="orange"  onclick="getNumber('1')" onfocus="this.style.backgroundColor = ' green' " > 1 </button>
+        <button class="green"  onclick="getNumber('2')" onfocus="this.style.backgroundColor = ' red' "> 2 </button>
+        <button class="blue"  onclick="getNumber('3')" onfocus="this.style.backgroundColor = ' oranegred' "> 3 </button>
+        <button class="red"  onclick="getNumber('-')" onfocus="this.style.backgroundColor = ' yellow' "> - </button>
+    </div>
+
+<!-- ********************************************************************** -->
+
+    <div>
+        <button class="yellow"  onclick="getNumber('0')" onfocus="this.style.backgroundColor = ' blue' "> 0 </button>
+        <button class="yellow"  onclick="getNumber('.')" onfocus="this.style.backgroundColor = ' red' "> . </button>
+        <button class="yellow"  onclick="getOutput()" onfocus="this.style.backgroundColor = ' green' "> = </button>
+        <button class="yellow"  onclick="getNumber('+')" onfocus="this.style.backgroundColor = ' oranegred' "> + </button>
+    </div>
+
+</div>
+
+<!-- ********************************************************************** -->
+   
+</body>
+
+<script src="app.js"></script>
+</html>
